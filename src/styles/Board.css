@@ -1,0 +1,17 @@
+/* styles/Board.css */
+
+/* Board container */
+.board {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    width: 500px;
+    height: 500px;
+    border: 2px solid #333;
+    margin: 0 auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #f0d9b5; /* Light tan color for board background */
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  

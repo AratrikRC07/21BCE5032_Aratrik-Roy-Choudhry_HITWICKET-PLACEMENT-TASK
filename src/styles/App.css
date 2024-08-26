@@ -1,0 +1,47 @@
+/* styles/App.css */
+
+/* General reset for margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Main application container */
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8f9fa; /* Light gray background */
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Game status display */
+  .game-status {
+    margin: 20px 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  /* Move history display */
+  .move-history {
+    width: 300px;
+    max-height: 200px;
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Move history item */
+  .move-history-item {
+    margin-bottom: 5px;
+    font-size: 1rem;
+    color: #555;
+  }
+  

@@ -1,0 +1,32 @@
+/* styles/Piece.css */
+
+/* Common styles for all pieces */
+.piece {
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: transform 0.2s;
+  }
+  
+  /* Player A piece styling */
+  .piece.playerA {
+    background-color: #1e90ff; /* Blue color */
+  }
+  
+  /* Player B piece styling */
+  .piece.playerB {
+    background-color: #ff4500; /* Red color */
+  }
+  
+  /* Animation when piece is clicked or moved */
+  .piece:hover {
+    transform: scale(1.1);
+  }
+  
