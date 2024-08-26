@@ -1,0 +1,32 @@
+/* styles/Square.css */
+
+/* Default styling for each square */
+.square {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.3s;
+  }
+  
+  /* Dark square styling */
+  .square.dark {
+    background-color: #b58863; /* Dark brown */
+  }
+  
+  /* Light square styling */
+  .square.light {
+    background-color: #f0d9b5; /* Light tan */
+  }
+  
+  /* Highlight square when selected or hovered */
+  .square:hover,
+  .square.selected {
+    background-color: #cdd26a; /* Highlight color */
+  }
+  
