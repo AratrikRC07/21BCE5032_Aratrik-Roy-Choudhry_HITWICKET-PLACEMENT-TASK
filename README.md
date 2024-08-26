@@ -71,8 +71,6 @@ This project is built with <a href="https://nextjs.org/" target="_blank">Next.js
 8. Enjoy playing chess with all the interactive features!
 
 
-Md Azaz Ahmed - <a href="https://azaz.me" target="_blank">azaz.me</a>
 
-Project Link: <a href="https://github.com/akib001/chess-duel" target="_blank">https://github.com/akib001/chess-duel</a>
 
-Live Demo: <a href="https://chessduel.netlify.app/" target="_blank">https://chessduel.netlify.app/</a>
+
